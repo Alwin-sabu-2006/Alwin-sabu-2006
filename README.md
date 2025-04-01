@@ -3,7 +3,7 @@
 Welcome to my GitHub profile! I'm passionate about software development and constantly enhancing my skills in various programming languages and technologies.
 
 ## About Me
-
+-I am currently pursuing my Btech degree in Computer science and engineering from St.Joseph's college of Engineering And Technology,palai.
 - 🌱 I’m currently learning advanced C programming and Python.
 - 🔭 I’m currently working on several projects related to C programming and Python.
 - 👯 I’m looking to collaborate on open-source projects and innovative software development projects.

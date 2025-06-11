@@ -24,64 +24,56 @@
   <a href="https://github.com/Alwin-sabu-2006/C-Hashtag-programming">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=C-Hashtag-programming&theme=radical"/>
   </a><br/>
-  <b>C-Hashtag-programming:</b> *(No description provided)* <br/>
-  ![Commits](https://img.shields.io/github/commits-since/Alwin-sabu-2006/C-Hashtag-programming/latest) [![Stars](https://img.shields.io/github/stars/Alwin-sabu-2006/C-Hashtag-programming?style=social)](https://github.com/Alwin-sabu-2006/C-Hashtag-programming/stargazers)
+  <b>C-Hashtag-programming:</b> *(No description provided)*
 </p>
 
 <p align="center">
   <a href="https://github.com/Alwin-sabu-2006/C-programming">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=C-programming&theme=radical"/>
   </a><br/>
-  <b>C-programming:</b> *(No description provided)* <br/>
-  ![Commits](https://img.shields.io/github/commits-since/Alwin-sabu-2006/C-programming/latest) [![Stars](https://img.shields.io/github/stars/Alwin-sabu-2006/C-programming?style=social)](https://github.com/Alwin-sabu-2006/C-programming/stargazers)
+  <b>C-programming:</b> *(No description provided)*
 </p>
 
 <p align="center">
   <a href="https://github.com/Alwin-sabu-2006/Shell-programming-in-ubuntu">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=Shell-programming-in-ubuntu&theme=radical"/>
   </a><br/>
-  <b>Shell-programming-in-ubuntu:</b> *(No description provided)* <br/>
-  ![Commits](https://img.shields.io/github/commits-since/Alwin-sabu-2006/Shell-programming-in-ubuntu/latest) [![Stars](https://img.shields.io/github/stars/Alwin-sabu-2006/Shell-programming-in-ubuntu?style=social)](https://github.com/Alwin-sabu-2006/Shell-programming-in-ubuntu/stargazers)
+  <b>Shell-programming-in-ubuntu:</b> *(No description provided)*
 </p>
 
 <p align="center">
   <a href="https://github.com/Alwin-sabu-2006/PYTHON-PROGRAMMING-SJCET">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=PYTHON-PROGRAMMING-SJCET&theme=radical"/>
   </a><br/>
-  <b>PYTHON-PROGRAMMING-SJCET:</b> "PYTHON LEARNING." <br/>
-  ![Commits](https://img.shields.io/github/commits-since/Alwin-sabu-2006/PYTHON-PROGRAMMING-SJCET/latest) [![Stars](https://img.shields.io/github/stars/Alwin-sabu-2006/PYTHON-PROGRAMMING-SJCET?style=social)](https://github.com/Alwin-sabu-2006/PYTHON-PROGRAMMING-SJCET/stargazers)
+  <b>PYTHON-PROGRAMMING-SJCET:</b> "PYTHON LEARNING."
 </p>
 
 <p align="center">
   <a href="https://github.com/Alwin-sabu-2006/learn-github-pages">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=learn-github-pages&theme=radical"/>
   </a><br/>
-  <b>learn-github-pages:</b> Hands-on GitHub Pages practice. <br/>
-  ![Commits](https://img.shields.io/github/commits-since/Alwin-sabu-2006/learn-github-pages/latest) [![Stars](https://img.shields.io/github/stars/Alwin-sabu-2006/learn-github-pages?style=social)](https://github.com/Alwin-sabu-2006/learn-github-pages/stargazers)
+  <b>learn-github-pages:</b> Hands-on GitHub Pages practice.
 </p>
 
 <p align="center">
   <a href="https://github.com/Alwin-sabu-2006/Github-Enablment-Task-_Assignment">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=Github-Enablment-Task-_Assignment&theme=radical"/>
   </a><br/>
-  <b>Github-Enablment-Task-_Assignment:</b> "FOC." <br/>
-  ![Commits](https://img.shields.io/github/commits-since/Alwin-sabu-2006/Github-Enablment-Task-_Assignment/latest) [![Stars](https://img.shields.io/github/stars/Alwin-sabu-2006/Github-Enablment-Task-_Assignment?style=social)](https://github.com/Alwin-sabu-2006/Github-Enablment-Task-_Assignment/stargazers)
+  <b>Github-Enablment-Task-_Assignment:</b> "FOC."
 </p>
 
 <p align="center">
   <a href="https://github.com/Alwin-sabu-2006/skills-communicate-using-markdown">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=skills-communicate-using-markdown&theme=radical"/>
   </a><br/>
-  <b>skills-communicate-using-markdown:</b> "My clone repository." <br/>
-  ![Commits](https://img.shields.io/github/commits-since/Alwin-sabu-2006/skills-communicate-using-markdown/latest) [![Stars](https://img.shields.io/github/stars/Alwin-sabu-2006/skills-communicate-using-markdown?style=social)](https://github.com/Alwin-sabu-2006/skills-communicate-using-markdown/stargazers)
+  <b>skills-communicate-using-markdown:</b> "My clone repository."
 </p>
 
 <p align="center">
   <a href="https://github.com/Alwin-sabu-2006/Alwin-sabu-2006">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=Alwin-sabu-2006&theme=radical"/>
   </a><br/>
-  <b>Alwin-sabu-2006:</b> Config files for profile <br/>
-  ![Commits](https://img.shields.io/github/commits-since/Alwin-sabu-2006/Alwin-sabu-2006/latest) [![Stars](https://img.shields.io/github/stars/Alwin-sabu-2006/Alwin-sabu-2006?style=social)](https://github.com/Alwin-sabu-2006/Alwin-sabu-2006/stargazers)
+  <b>Alwin-sabu-2006:</b> Config files for profile
 </p>
 
 ---

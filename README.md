@@ -86,6 +86,7 @@
 ---
 
 ### 🔐 Private Projects
+
 - **html-practice:** Small HTML components and layout designs.
 - **HTML:** Learning HTML tags and templates.
 - **Python-coding:** Mini Python experiments and logic tasks.
@@ -93,6 +94,7 @@
 ---
 
 ### 🧰 Tools & Technologies
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,cs,python,bash,html,css,vscode,github,mysql&theme=dark" />
 </p>
@@ -101,19 +103,17 @@
 
 ### 🧭 Code Motto
 
-```txt
 while (!Success) {
-   Learn();
-   Build();
-   Commit();
+Learn();
+Build();
+Commit();
 }
 
-
-> "Design. Debug. Deliver. One byte at a time."
 
 ---
 
 ### 🌐 Connect With Me
+
 <p align="center">
   <a href="https://www.linkedin.com/in/alwin-sabu-256540330/">
     <img src="https://img.shields.io/badge/LinkedIn-Alwin%20Sabu-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />

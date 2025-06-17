@@ -76,6 +76,13 @@
   <b>Alwin-sabu-2006:</b> Config files for profile
 </p>
 
+<p align="center">
+  <a href="https://github.com/Alwin-sabu-2006/sql">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Alwin-sabu-2006&repo=sql&theme=radical"/>
+  </a><br/>
+  <b>sql:</b> SQL programs and query practice.
+</p>
+
 ---
 
 ### 🔐 Private Projects
@@ -87,7 +94,7 @@
 
 ### 🧰 Tools & Technologies
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cs,python,bash,html,css,vscode,github&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,cs,python,bash,html,css,vscode,github,mysql&theme=dark" />
 </p>
 
 ---
@@ -100,7 +107,7 @@ while (!Success) {
    Build();
    Commit();
 }
-```
+
 
 > "Design. Debug. Deliver. One byte at a time."
 

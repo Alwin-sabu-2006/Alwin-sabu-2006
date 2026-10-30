@@ -1,0 +1,235 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" fill="none">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="crt_bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#04060f"/>
+      <stop offset="60%" stop-color="#080e1e"/>
+      <stop offset="100%" stop-color="#020308"/>
+    </linearGradient>
+
+    <!-- Bezel Gradient -->
+    <linearGradient id="bezel_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#121829"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0a0f1d"/>
+    </linearGradient>
+
+    <!-- Arcade Neon Border -->
+    <linearGradient id="arcade_neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f">
+        <animate attributeName="stop-color" values="#ff007f;#00f5ff;#ffb703;#ff007f" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#00f5ff">
+        <animate attributeName="stop-color" values="#00f5ff;#ffb703;#ff007f;#00f5ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#b026ff">
+        <animate attributeName="stop-color" values="#b026ff;#ff007f;#00f5ff;#b026ff" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- CRT Scanlines Pattern -->
+    <pattern id="arcade_scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#00f5ff" stroke-width="0.8" stroke-opacity="0.08"/>
+    </pattern>
+
+    <!-- Glow Filters -->
+    <filter id="laser_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="score_glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .arcade-font { font-family: 'Courier New', 'Fira Code', monospace; }
+  </style>
+
+  <!-- Outer Arcade Cabinet Frame -->
+  <rect x="2" y="2" width="876" height="376" rx="16" fill="url(#bezel_grad)" stroke="url(#arcade_neon)" stroke-width="2.5"/>
+
+  <!-- Top Arcade Marquee Badge -->
+  <g transform="translate(240, 10)">
+    <rect x="0" y="0" width="400" height="28" rx="6" fill="#030611" stroke="#ff007f" stroke-width="1.5" filter="url(#laser_glow)"/>
+    <text x="200" y="19" fill="#00f5ff" font-size="13" class="arcade-font" font-weight="bold" text-anchor="middle" letter-spacing="3">
+      👾 CYBER_INVADERS // ARCADE 2077
+    </text>
+  </g>
+
+  <!-- Inner CRT Display Area -->
+  <rect x="18" y="45" width="844" height="315" rx="12" fill="url(#crt_bg)" stroke="#00f5ff" stroke-opacity="0.3" stroke-width="1.5"/>
+  <rect x="18" y="45" width="844" height="315" rx="12" fill="url(#arcade_scanlines)"/>
+
+  <!-- CRT Corner Highlights -->
+  <circle cx="28" cy="55" r="3" fill="#ff007f"/>
+  <circle cx="852" cy="55" r="3" fill="#00f5ff"/>
+  <circle cx="28" cy="350" r="3" fill="#00ff66"/>
+  <circle cx="852" cy="350" r="3" fill="#ffb703"/>
+
+  <!-- ================= TOP SCORE HUD ================= -->
+  <g transform="translate(35, 68)">
+    <!-- 1UP Score -->
+    <text x="0" y="0" fill="#ff007f" font-size="11" class="arcade-font" font-weight="bold">1UP SCORE</text>
+    <text x="0" y="18" fill="#ffffff" font-size="16" class="arcade-font" font-weight="bold" filter="url(#score_glow)">
+      142,850
+      <animate attributeName="opacity" values="1;0.85;1" dur="0.8s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- High Score -->
+    <text x="260" y="0" fill="#ffb703" font-size="11" class="arcade-font" font-weight="bold">HIGH SCORE</text>
+    <text x="260" y="18" fill="#ffb703" font-size="16" class="arcade-font" font-weight="bold" filter="url(#score_glow)">999,990</text>
+
+    <!-- Stage / Wave -->
+    <text x="520" y="0" fill="#00f5ff" font-size="11" class="arcade-font" font-weight="bold">WAVE STAGE</text>
+    <text x="520" y="18" fill="#00f5ff" font-size="16" class="arcade-font" font-weight="bold">WAVE 09 [BOSS]</text>
+
+    <!-- Lives -->
+    <text x="710" y="0" fill="#00ff66" font-size="11" class="arcade-font" font-weight="bold">LIVES</text>
+    <text x="710" y="18" fill="#ff0055" font-size="16" class="arcade-font">♥♥♥</text>
+  </g>
+
+  <line x1="30" y1="96" x2="850" y2="96" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- ================= STARFIELD & RETRO HORIZON GRID ================= -->
+  <!-- Perspective Cyber Grid at the Bottom -->
+  <g opacity="0.35">
+    <line x1="30" y1="310" x2="850" y2="310" stroke="#b026ff" stroke-width="1"/>
+    <line x1="30" y1="322" x2="850" y2="322" stroke="#b026ff" stroke-width="1.2"/>
+    <line x1="30" y1="338" x2="850" y2="338" stroke="#b026ff" stroke-width="1.5"/>
+    <line x1="440" y1="280" x2="60" y2="350" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="440" y1="280" x2="180" y2="350" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="440" y1="280" x2="310" y2="350" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="440" y1="280" x2="440" y2="350" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="440" y1="280" x2="570" y2="350" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="440" y1="280" x2="700" y2="350" stroke="#00f5ff" stroke-width="1"/>
+    <line x1="440" y1="280" x2="820" y2="350" stroke="#00f5ff" stroke-width="1"/>
+  </g>
+
+  <!-- Stars with twinkling -->
+  <circle cx="120" cy="130" r="1.5" fill="#ffffff"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="280" cy="180" r="1.2" fill="#00f5ff"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2s" repeatCount="indefinite"/></circle>
+  <circle cx="640" cy="120" r="1.5" fill="#ff007f"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="750" cy="170" r="1.2" fill="#ffb703"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="480" cy="140" r="1.5" fill="#00ff66"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite"/></circle>
+
+  <!-- ================= ENEMY CYBER BUGS (ROW OF INVADERS) ================= -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 25,0; 0,0; -25,0; 0,0" dur="4s" repeatCount="indefinite"/>
+
+    <!-- Invader 1: 404 Bug -->
+    <g transform="translate(130, 115)">
+      <rect x="0" y="0" width="80" height="26" rx="4" fill="#0b1021" stroke="#ff007f" stroke-width="1.2"/>
+      <text x="40" y="17" fill="#ff007f" font-size="10" class="arcade-font" font-weight="bold" text-anchor="middle">BUG #404</text>
+      <!-- Pixel Wings -->
+      <path d="M-8 8 L0 4 L0 20 L-8 16 Z" fill="#ff007f" opacity="0.8"/>
+      <path d="M88 8 L80 4 L80 20 L88 16 Z" fill="#ff007f" opacity="0.8"/>
+    </g>
+
+    <!-- Invader 2: Segfault Bug -->
+    <g transform="translate(290, 115)">
+      <rect x="0" y="0" width="90" height="26" rx="4" fill="#0b1021" stroke="#ffb703" stroke-width="1.2"/>
+      <text x="45" y="17" fill="#ffb703" font-size="10" class="arcade-font" font-weight="bold" text-anchor="middle">SEG_FAULT</text>
+      <path d="M-8 8 L0 4 L0 20 L-8 16 Z" fill="#ffb703" opacity="0.8"/>
+      <path d="M98 8 L90 4 L90 20 L98 16 Z" fill="#ffb703" opacity="0.8"/>
+    </g>
+
+    <!-- Invader 3: NullPtr Boss Bug -->
+    <g transform="translate(460, 110)">
+      <rect x="0" y="0" width="110" height="32" rx="6" fill="#0b1021" stroke="#00f5ff" stroke-width="1.8" filter="url(#laser_glow)"/>
+      <text x="55" y="21" fill="#00f5ff" font-size="11" class="arcade-font" font-weight="bold" text-anchor="middle">NULL_POINTER</text>
+      <path d="M-12 8 L0 2 L0 28 L-12 22 Z" fill="#00f5ff"/>
+      <path d="M122 8 L110 2 L110 28 L122 22 Z" fill="#00f5ff"/>
+      <!-- Target Marker -->
+      <circle cx="55" cy="16" r="18" fill="none" stroke="#ff0055" stroke-width="1" stroke-dasharray="3 3">
+        <animateTransform attributeName="transform" type="rotate" from="0 55 16" to="360 55 16" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Invader 4: MemLeak Bug -->
+    <g transform="translate(650, 115)">
+      <rect x="0" y="0" width="85" height="26" rx="4" fill="#0b1021" stroke="#00ff66" stroke-width="1.2"/>
+      <text x="42" y="17" fill="#00ff66" font-size="10" class="arcade-font" font-weight="bold" text-anchor="middle">MEM_LEAK</text>
+      <path d="M-8 8 L0 4 L0 20 L-8 16 Z" fill="#00ff66" opacity="0.8"/>
+      <path d="M93 8 L85 4 L85 20 L93 16 Z" fill="#00ff66" opacity="0.8"/>
+    </g>
+
+    <!-- Second Row of Mini Bugs -->
+    <g transform="translate(180, 155)">
+      <polygon points="15,0 30,18 0,18" fill="#b026ff" opacity="0.8"/>
+      <polygon points="120,0 135,18 105,18" fill="#ff007f" opacity="0.8"/>
+      <polygon points="360,0 375,18 345,18" fill="#00f5ff" opacity="0.8"/>
+      <polygon points="480,0 495,18 465,18" fill="#ffb703" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- ================= ANIMATED PLASMA LASER BEAMS ================= -->
+  <!-- Left Laser -->
+  <line x1="430" y1="260" x2="430" y2="140" stroke="#00f5ff" stroke-width="3" filter="url(#laser_glow)">
+    <animate attributeName="y1" values="260;140;260" dur="0.9s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="240;110;240" dur="0.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="0.9s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Right Laser -->
+  <line x1="450" y1="260" x2="450" y2="140" stroke="#ff007f" stroke-width="3" filter="url(#laser_glow)">
+    <animate attributeName="y1" values="260;140;260" dur="0.9s" begin="0.15s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="240;110;240" dur="0.9s" begin="0.15s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="0.9s" begin="0.15s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Impact Explosion Sparks -->
+  <g transform="translate(515, 126)">
+    <circle cx="0" cy="0" r="10" fill="#00f5ff" opacity="0.7" filter="url(#laser_glow)">
+      <animate attributeName="r" values="3;16;3" dur="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0;0.9" dur="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="15" y="-5" fill="#ff007f" font-size="10" class="arcade-font" font-weight="bold">+5,000 PTS!</text>
+  </g>
+
+  <!-- ================= PLAYER CYBER FIGHTER SHIP ================= -->
+  <g transform="translate(440, 275)">
+    <!-- Animated Horizontal Ship Movement -->
+    <animateTransform attributeName="transform" type="translate" values="440,275; 480,275; 400,275; 440,275" dur="3s" repeatCount="indefinite"/>
+
+    <!-- Thruster Fire -->
+    <polygon points="-8,18 0,32 8,18" fill="#ff0055" filter="url(#laser_glow)">
+      <animate attributeName="points" values="-8,18 0,34 8,18; -6,18 0,26 6,18; -8,18 0,34 8,18" dur="0.2s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="-4,18 0,26 4,18" fill="#00f5ff"/>
+
+    <!-- Ship Hull -->
+    <path d="M0 -18 L18 16 L6 14 L0 8 L-6 14 L-18 16 Z" fill="#0f172a" stroke="#00f5ff" stroke-width="2"/>
+    <!-- Cockpit -->
+    <ellipse cx="0" cy="-2" rx="3.5" ry="7" fill="#00f5ff" filter="url(#laser_glow)"/>
+    <!-- Wing Cannons -->
+    <line x1="-16" y1="4" x2="-16" y2="-8" stroke="#ff007f" stroke-width="2.5"/>
+    <line x1="16" y1="4" x2="16" y2="-8" stroke="#ff007f" stroke-width="2.5"/>
+  </g>
+
+  <!-- ================= BOTTOM MARQUEE: STATUS & CALL-TO-ACTION ================= -->
+  <g transform="translate(35, 335)">
+    <rect x="0" y="0" width="810" height="20" rx="4" fill="#050a17" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1"/>
+    
+    <text x="15" y="14" fill="#ffb703" font-size="11" class="arcade-font" font-weight="bold">
+      [ INSERT COIN ]
+      <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="160" y="14" fill="#94a3b8" font-size="11" class="arcade-font">
+      PLAYER 1: <tspan fill="#00f5ff" font-weight="bold">ALWIN SABU</tspan> [RANK: SYSTEMS NETRUNNER]
+    </text>
+
+    <text x="610" y="14" fill="#00ff66" font-size="11" class="arcade-font" font-weight="bold">
+      STATUS: MULTIPLAYER READY
+    </text>
+  </g>
+</svg>

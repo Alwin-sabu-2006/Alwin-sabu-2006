@@ -1,25 +1,237 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="302" viewBox="0 0 800 302" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowZmNkNTcwMC04ODc3LTRkMGUtYTQ1ZC1lZDZlYTA0NmYwNzYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaDAsr9WPZCHvmkqzA4YdETgAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpjMDdjZDcyNy1mYmJkLTQxNTMtYWM5OS1kYmRhYWM3NWE3OWVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNouQZT24KxLJG/W5Pd7U9HtQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgguYv1jx+Qxw7nXwmmHYduKrf3JvLsrwk5xP2ahPN9VSKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaBK8FTUBZ5O5KkL2tCHk/pYAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCAeYzn9R197LLTd7XpUuBWiSF7n1jw+CvVHtHHC2x3uLGRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiWZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjBmY2Q1NzAwLTg4NzctNGQwZS1hNDVkLWVkNmVhMDQ2ZjA3Ni9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmRhZjVlZTg3LTgwYzgtNGY0Ny05NTM3LTIxMWNhNmE1ODY4MHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCC5i/WPH5DHDudfCaYdh24qt/cm8uyvCTnE/ZqE831VIqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggIGQ/DB3qVNyxJtubj6ufn/pz3rnCMo0DqKnI4DIZAbaiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggdLDmMo9yAgyirDI9cndiBVbFC2akUXGF8WIPRSTIHhd0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQLUQCMb/8+RhH8GbvOGfhPhiZO73NyqAz+Tkf6wYZnxRtLte8JnI5CRWnKqbGO9jSrU/BgRYalIQal3bGHEXWjw=</c2pa:manifest></metadata>
-<defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
-<linearGradient id="bd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00ffe1"><animate attributeName="stop-color" values="#00ffe1;#7c4dff;#ef476f;#00ffe1" dur="8s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#7c4dff"><animate attributeName="stop-color" values="#7c4dff;#ef476f;#00ffe1;#7c4dff" dur="8s" repeatCount="indefinite"/></stop></linearGradient>
-<clipPath id="c0"><rect x="30" y="74" height="26" width="0"><animate attributeName="width" dur="14.0s" repeatCount="indefinite" keyTimes="0;0.0286;0.1000;0.96;1" values="0;0;81.6;81.6;0"/></rect></clipPath>
-<clipPath id="c1"><rect x="30" y="104" height="26" width="0"><animate attributeName="width" dur="14.0s" repeatCount="indefinite" keyTimes="0;0.1429;0.2143;0.96;1" values="0;0;382.3;382.3;0"/></rect></clipPath>
-<clipPath id="c2"><rect x="30" y="134" height="26" width="0"><animate attributeName="width" dur="14.0s" repeatCount="indefinite" keyTimes="0;0.2571;0.3286;0.96;1" values="0;0;159.2;159.2;0"/></rect></clipPath>
-<clipPath id="c3"><rect x="30" y="164" height="26" width="0"><animate attributeName="width" dur="14.0s" repeatCount="indefinite" keyTimes="0;0.3714;0.4429;0.96;1" values="0;0;411.4;411.4;0"/></rect></clipPath>
-<clipPath id="c4"><rect x="30" y="194" height="26" width="0"><animate attributeName="width" dur="14.0s" repeatCount="indefinite" keyTimes="0;0.4857;0.5571;0.96;1" values="0;0;130.1;130.1;0"/></rect></clipPath>
-<clipPath id="c5"><rect x="30" y="224" height="26" width="0"><animate attributeName="width" dur="14.0s" repeatCount="indefinite" keyTimes="0;0.6000;0.6714;0.96;1" values="0;0;382.3;382.3;0"/></rect></clipPath>
-</defs>
-<rect x="2" y="2" width="796" height="298" rx="14" fill="url(#bg)" stroke="url(#bd)" stroke-width="2"/>
-<rect x="2" y="2" width="796" height="40" rx="14" fill="#1e2327"/>
-<rect x="2" y="28" width="796" height="14" fill="#1e2327"/>
-<circle cx="28" cy="22" r="7" fill="#ff5f56"/><circle cx="52" cy="22" r="7" fill="#ffbd2e"/><circle cx="76" cy="22" r="7" fill="#27c93f"/>
-<text x="400" y="27" text-anchor="middle" fill="#8b949e" font-family="Fira Code, Consolas, monospace" font-size="13">alwin@sjcet: ~/profile</text>
-<text x="30" y="92" fill="#00ffe1" font-family="Fira Code, Consolas, monospace" font-size="16" clip-path="url(#c0)">$ whoami</text>
-<text x="30" y="122" fill="#e6edf3" font-family="Fira Code, Consolas, monospace" font-size="16" clip-path="url(#c1)">&gt; Alwin Sabu | B.Tech CSE @ SJCET Palai</text>
-<text x="30" y="152" fill="#00ffe1" font-family="Fira Code, Consolas, monospace" font-size="16" clip-path="url(#c2)">$ cat skills.txt</text>
-<text x="30" y="182" fill="#ffd166" font-family="Fira Code, Consolas, monospace" font-size="16" clip-path="url(#c3)">&gt; C | Python | Shell | C# | SQL | HTML/CSS</text>
-<text x="30" y="212" fill="#00ffe1" font-family="Fira Code, Consolas, monospace" font-size="16" clip-path="url(#c4)">$ ./status.sh</text>
-<text x="30" y="242" fill="#ef476f" font-family="Fira Code, Consolas, monospace" font-size="16" clip-path="url(#c5)">&gt; Learn(); Build(); Commit(); // repeat</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="cyber_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#0b1120"/>
+      <stop offset="100%" stop-color="#040711"/>
+    </linearGradient>
 
-<text x="30" y="272" fill="#00ffe1" font-family="Fira Code, Consolas, monospace" font-size="16">$ <tspan>_</tspan><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></text>
+    <!-- Glowing Cyber Border Gradient -->
+    <linearGradient id="neon_border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff">
+        <animate attributeName="stop-color" values="#00f5ff;#b026ff;#ff007f;#00f5ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#b026ff">
+        <animate attributeName="stop-color" values="#b026ff;#ff007f;#00f5ff;#b026ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00f5ff">
+        <animate attributeName="stop-color" values="#00f5ff;#b026ff;#ff007f;#00f5ff" dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Radar Pulse -->
+    <radialGradient id="radar_glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0.4"/>
+      <stop offset="70%" stop-color="#00f5ff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Scanline Pattern -->
+    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#00f5ff" stroke-width="0.6" stroke-opacity="0.07"/>
+    </pattern>
+
+    <!-- Hex Grid Pattern -->
+    <pattern id="hex_grid" width="28" height="48" patternUnits="userSpaceOnUse">
+      <path d="M14 0 L28 8 L28 24 L14 32 L0 24 L0 8 Z M14 48 L28 40 L28 24 L14 16 L0 24 L0 40 Z" fill="none" stroke="#00f5ff" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+
+    <!-- Glow Filters -->
+    <filter id="glow_cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glow_pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect x="2" y="2" width="876" height="436" rx="16" fill="url(#cyber_bg)" stroke="url(#neon_border)" stroke-width="2"/>
+  <rect x="2" y="2" width="876" height="436" rx="16" fill="url(#hex_grid)"/>
+  <rect x="2" y="2" width="876" height="436" rx="16" fill="url(#scanlines)"/>
+
+  <!-- Scanning Line Effect -->
+  <rect x="2" y="0" width="876" height="2" fill="#00f5ff" opacity="0.25">
+    <animate attributeName="y" from="0" to="440" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- High-Tech Corner Markers -->
+  <path d="M16 8 L8 8 L8 16" stroke="#00f5ff" stroke-width="2" fill="none"/>
+  <path d="M864 8 L872 8 L872 16" stroke="#00f5ff" stroke-width="2" fill="none"/>
+  <path d="M16 432 L8 432 L8 424" stroke="#00f5ff" stroke-width="2" fill="none"/>
+  <path d="M864 432 L872 432 L872 424" stroke="#00f5ff" stroke-width="2" fill="none"/>
+
+  <!-- Top Cyber Titlebar -->
+  <rect x="2" y="2" width="876" height="44" rx="16" fill="#070d1e" fill-opacity="0.8"/>
+  <line x1="2" y1="46" x2="878" y2="46" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- Window Dots / LEDs -->
+  <circle cx="26" cy="24" r="6" fill="#ff0055" filter="url(#glow_pink)"/>
+  <circle cx="46" cy="24" r="6" fill="#ffb703"/>
+  <circle cx="66" cy="24" r="6" fill="#00f5ff" filter="url(#glow_cyan)"/>
+
+  <!-- Top Status Readouts -->
+  <text x="96" y="28" fill="#64748b" font-size="12" class="mono" font-weight="bold">NETRUNNER_DECK // v4.2</text>
+  <rect x="280" y="17" width="12" height="12" rx="6" fill="#00ff66" opacity="0.8">
+    <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="300" y="28" fill="#00ff66" font-size="12" class="mono" font-weight="bold">ONLINE [CORE OVERCLOCKED]</text>
+
+  <rect x="550" y="14" width="90" height="20" rx="4" fill="#00f5ff" fill-opacity="0.1" stroke="#00f5ff" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="562" y="28" fill="#00f5ff" font-size="11" class="mono">PING: 8ms</text>
+
+  <rect x="650" y="14" width="100" height="20" rx="4" fill="#b026ff" fill-opacity="0.1" stroke="#b026ff" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="660" y="28" fill="#b026ff" font-size="11" class="mono">AES-512 SEC</text>
+
+  <rect x="760" y="14" width="95" height="20" rx="4" fill="#ff0055" fill-opacity="0.1" stroke="#ff0055" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="770" y="28" fill="#ff0055" font-size="11" class="mono">SYS: OPTIMAL</text>
+
+  <!-- ================= LEFT HUD: RADAR & HARDWARE DIAGNOSTICS ================= -->
+  <g transform="translate(25, 65)">
+    <!-- Radar Circle -->
+    <rect x="0" y="0" width="210" height="345" rx="10" fill="#060a18" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1"/>
+    <text x="15" y="24" fill="#00f5ff" font-size="11" class="mono" font-weight="bold">// NEURAL RADAR</text>
+
+    <!-- Radar Screen -->
+    <g transform="translate(105, 105)">
+      <circle cx="0" cy="0" r="65" fill="url(#radar_glow)" stroke="#00f5ff" stroke-opacity="0.3" stroke-width="1"/>
+      <circle cx="0" cy="0" r="45" fill="none" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="3 3"/>
+      <circle cx="0" cy="0" r="25" fill="none" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1"/>
+      <circle cx="0" cy="0" r="3" fill="#00f5ff"/>
+      <!-- Crosshairs -->
+      <line x1="-65" y1="0" x2="65" y2="0" stroke="#00f5ff" stroke-opacity="0.25" stroke-width="1"/>
+      <line x1="0" y1="-65" x2="0" y2="65" stroke="#00f5ff" stroke-opacity="0.25" stroke-width="1"/>
+      <!-- Radar Sweeper -->
+      <g>
+        <line x1="0" y1="0" x2="65" y2="0" stroke="#00f5ff" stroke-width="2" filter="url(#glow_cyan)">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+        </line>
+        <path d="M0 0 L60 -25 A65 65 0 0 1 65 0 Z" fill="#00f5ff" fill-opacity="0.15">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+        </path>
+      </g>
+      <!-- Blips -->
+      <circle cx="32" cy="-24" r="3" fill="#ff007f" filter="url(#glow_pink)">
+        <animate attributeName="opacity" values="1;0.1;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-28" cy="35" r="2.5" fill="#00ff66">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-15" cy="-35" r="2" fill="#00f5ff">
+        <animate attributeName="opacity" values="0.8;0.2;0.8" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Diagnostics Bars -->
+    <text x="15" y="195" fill="#94a3b8" font-size="10" class="mono">CPU LOAD (OVERCLOCK)</text>
+    <rect x="15" y="202" width="180" height="8" rx="4" fill="#1e293b"/>
+    <rect x="15" y="202" width="160" height="8" rx="4" fill="#00f5ff" filter="url(#glow_cyan)">
+      <animate attributeName="width" values="140;172;155;168;140" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="15" y="226" fill="#94a3b8" font-size="10" class="mono">COGNITIVE BUFFER</text>
+    <rect x="15" y="233" width="180" height="8" rx="4" fill="#1e293b"/>
+    <rect x="15" y="233" width="150" height="8" rx="4" fill="#b026ff">
+      <animate attributeName="width" values="150;135;160;145;150" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <text x="15" y="257" fill="#94a3b8" font-size="10" class="mono">COFFEE.SYS CAPACITY</text>
+    <rect x="15" y="264" width="180" height="8" rx="4" fill="#1e293b"/>
+    <rect x="15" y="264" width="175" height="8" rx="4" fill="#ffb703">
+      <animate attributeName="width" values="175;170;178;175" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Mini Telemetry Matrix -->
+    <rect x="15" y="285" width="180" height="45" rx="6" fill="#02040a" stroke="#00f5ff" stroke-opacity="0.15" stroke-width="1"/>
+    <text x="24" y="302" fill="#00f5ff" font-size="9" class="mono">CORE_TEMP: 32.4°C</text>
+    <text x="24" y="318" fill="#00ff66" font-size="9" class="mono">FIREWALL: ACTIVE [ZERO SEC DEFECTS]</text>
+  </g>
+
+  <!-- ================= RIGHT TERMINAL: NEOFETCH / HIGH-TECH PROFILE ================= -->
+  <g transform="translate(255, 65)">
+    <rect x="0" y="0" width="600" height="345" rx="10" fill="#060a18" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1"/>
+
+    <!-- Command Prompt Line -->
+    <text x="20" y="30" fill="#00f5ff" font-size="14" class="mono" font-weight="bold">alwin@cyberdeck:~$</text>
+    <text x="180" y="30" fill="#f8fafc" font-size="14" class="mono">neofetch --cyber --full-matrix</text>
+
+    <line x1="20" y1="45" x2="580" y2="45" stroke="#00f5ff" stroke-opacity="0.15" stroke-width="1"/>
+
+    <!-- Cyber Avatar / Insignia -->
+    <g transform="translate(20, 60)">
+      <rect x="0" y="0" width="120" height="135" rx="8" fill="#02050f" stroke="#b026ff" stroke-opacity="0.4" stroke-width="1"/>
+      <!-- Hologram Skull / Netrunner Glyph -->
+      <path d="M35 30 L85 30 L90 60 L75 80 L75 95 L45 95 L45 80 L30 60 Z" fill="#00f5ff" fill-opacity="0.08" stroke="#00f5ff" stroke-width="1.5"/>
+      <circle cx="48" cy="52" r="6" fill="#00f5ff" filter="url(#glow_cyan)"/>
+      <circle cx="72" cy="52" r="6" fill="#00f5ff" filter="url(#glow_cyan)"/>
+      <path d="M48 76 L72 76" stroke="#ff007f" stroke-width="2" filter="url(#glow_pink)"/>
+      <line x1="45" y1="85" x2="75" y2="85" stroke="#00f5ff" stroke-width="1.5" stroke-dasharray="3 3"/>
+      <text x="60" y="118" fill="#b026ff" font-size="10" class="mono" text-anchor="middle" font-weight="bold">[OPERATIVE]</text>
+    </g>
+
+    <!-- Neofetch Detail List -->
+    <g transform="translate(155, 68)">
+      <text x="0" y="14" fill="#00f5ff" font-size="15" class="mono" font-weight="bold">Alwin Sabu</text>
+      <text x="95" y="14" fill="#64748b" font-size="14" class="mono">@</text>
+      <text x="110" y="14" fill="#b026ff" font-size="15" class="mono" font-weight="bold">SJCET-Palai-CSE</text>
+      
+      <text x="0" y="30" fill="#334155" font-size="12" class="mono">----------------------------------------------------</text>
+
+      <text x="0" y="50" fill="#ff007f" font-size="12" class="mono" font-weight="bold">OS</text>
+      <text x="110" y="50" fill="#e2e8f0" font-size="12" class="mono">: CyberOS 2077 // Ubuntu 24.04 LTS (x86_64)</text>
+
+      <text x="0" y="70" fill="#00f5ff" font-size="12" class="mono" font-weight="bold">ROLE</text>
+      <text x="110" y="70" fill="#e2e8f0" font-size="12" class="mono">: B.Tech CSE Student &amp; Systems Explorer</text>
+
+      <text x="0" y="90" fill="#ffb703" font-size="12" class="mono" font-weight="bold">SPECIALTY</text>
+      <text x="110" y="90" fill="#ffd166" font-size="12" class="mono">: Low-Level C • Python • Shell Scripting • SQL</text>
+
+      <text x="0" y="110" fill="#00ff66" font-size="12" class="mono" font-weight="bold">FIREWALL</text>
+      <text x="110" y="110" fill="#e2e8f0" font-size="12" class="mono">: Always in Debug Mode 🐞 [Zero Flaws]</text>
+
+      <text x="0" y="130" fill="#b026ff" font-size="12" class="mono" font-weight="bold">MISSION</text>
+      <text x="110" y="130" fill="#e2e8f0" font-size="12" class="mono">: High-Performance Systems &amp; Open-Source</text>
+
+      <text x="0" y="150" fill="#00f5ff" font-size="12" class="mono" font-weight="bold">LOCATION</text>
+      <text x="110" y="150" fill="#e2e8f0" font-size="12" class="mono">: Kerala, India 🇮🇳 [IST UTC+5:30]</text>
+    </g>
+
+    <!-- Bottom Command Execution & Interactive Status -->
+    <g transform="translate(20, 240)">
+      <rect x="0" y="0" width="560" height="85" rx="8" fill="#030612" stroke="#b026ff" stroke-opacity="0.2" stroke-width="1"/>
+      
+      <text x="15" y="24" fill="#00f5ff" font-size="12" class="mono">$ ./deploy_mindset.sh</text>
+      <text x="15" y="46" fill="#a855f7" font-size="12" class="mono">&gt;&gt; while (!Success) { Learn(); Build(); Commit(); }</text>
+      
+      <text x="15" y="68" fill="#00ff66" font-size="12" class="mono">&gt;&gt; STATUS: READY TO HACK &amp; COLLABORATE</text>
+
+      <!-- Blinking Neon Cursor -->
+      <rect x="330" y="56" width="9" height="14" fill="#00f5ff" filter="url(#glow_cyan)">
+        <animate attributeName="opacity" values="1;0;1" dur="0.9s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- Mini Color Palette Matrix -->
+      <g transform="translate(440, 16)">
+        <circle cx="10" cy="8" r="6" fill="#ff0055"/>
+        <circle cx="28" cy="8" r="6" fill="#ffb703"/>
+        <circle cx="46" cy="8" r="6" fill="#00ff66"/>
+        <circle cx="64" cy="8" r="6" fill="#00f5ff"/>
+        <circle cx="82" cy="8" r="6" fill="#b026ff"/>
+        <circle cx="100" cy="8" r="6" fill="#ffffff"/>
+      </g>
+    </g>
+  </g>
 </svg>

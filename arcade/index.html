@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CYBER_INVADERS 2077 // ALWIN SABU ARCADE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; user-select: none; }
+    body {
+      background-color: #030712;
+      color: #00f5ff;
+      font-family: 'Fira Code', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    .crt-overlay {
+      position: fixed;
+      top: 0; left: 0; width: 100vw; height: 100vh;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+      background-size: 100% 3px, 3px 100%;
+      pointer-events: none;
+      z-index: 100;
+    }
+    .arcade-container {
+      position: relative;
+      background: #060a18;
+      border: 3px solid #00f5ff;
+      box-shadow: 0 0 35px rgba(0, 245, 255, 0.35), inset 0 0 25px rgba(176, 38, 255, 0.2);
+      border-radius: 16px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 95vw;
+    }
+    .header-bar {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed rgba(0, 245, 255, 0.3);
+      font-size: 13px;
+    }
+    .header-title {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 14px;
+      color: #ff007f;
+      text-shadow: 0 0 10px #ff007f;
+    }
+    canvas {
+      background: #02040a;
+      border: 2px solid #1e293b;
+      border-radius: 8px;
+      display: block;
+      box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.9);
+    }
+    .controls-hint {
+      margin-top: 12px;
+      font-size: 12px;
+      color: #94a3b8;
+      display: flex;
+      gap: 20px;
+    }
+    .key-badge {
+      background: #1e293b;
+      color: #00f5ff;
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid #00f5ff;
+      font-weight: bold;
+    }
+    .mobile-controls {
+      display: none;
+      gap: 16px;
+      margin-top: 12px;
+    }
+    @media (max-width: 768px) {
+      .mobile-controls { display: flex; }
+      .controls-hint { display: none; }
+    }
+    .btn {
+      background: rgba(0, 245, 255, 0.15);
+      border: 1px solid #00f5ff;
+      color: #fff;
+      padding: 12px 24px;
+      font-family: 'Press Start 2P', cursive;
+      font-size: 12px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .btn:active { background: #00f5ff; color: #000; }
+  </style>
+</head>
+<body>
+  <div class="crt-overlay"></div>
+
+  <div class="arcade-container">
+    <div class="header-bar">
+      <span class="header-title">👾 CYBER_INVADERS 2077</span>
+      <span style="color: #ffb703;">PILOT: ALWIN SABU</span>
+      <span id="sound-indicator" style="cursor: pointer; color: #00ff66;">🔊 AUDIO: ON</span>
+    </div>
+
+    <canvas id="gameCanvas" width="640" height="480"></canvas>
+
+    <div class="controls-hint">
+      <span><span class="key-badge">◄ / ►</span> or <span class="key-badge">A / D</span> : MOVE</span>
+      <span><span class="key-badge">SPACE</span> : FIRE PLASMA</span>
+      <span><span class="key-badge">R</span> : RESTART</span>
+    </div>
+
+    <div class="mobile-controls">
+      <button class="btn" id="btn-left">◄</button>
+      <button class="btn" id="btn-fire" style="border-color: #ff007f; color: #ff007f;">FIRE</button>
+      <button class="btn" id="btn-right">►</button>
+    </div>
+  </div>
+
+  <script>
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // Web Audio Synthesizer for Arcade Sounds
+    let audioCtx = null;
+    function initAudio() {
+      if (!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    function playBeep(freq, type = 'square', duration = 0.08) {
+      if (!audioCtx) return;
+      try {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+        gain.gain.setValueAtTime(0.1, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.01, audioCtx.currentTime + duration);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + duration);
+      } catch (e) {}
+    }
+
+    // Game Variables
+    let score = 0;
+    let highscore = localStorage.getItem('cyber_invaders_hi') || 50000;
+    let wave = 1;
+    let lives = 3;
+    let gameOver = false;
+    let gameWon = false;
+
+    // Player Ship
+    const player = {
+      x: canvas.width / 2 - 16,
+      y: canvas.height - 40,
+      w: 32,
+      h: 20,
+      speed: 6,
+      dx: 0
+    };
+
+    // Lasers
+    let lasers = [];
+    let enemyLasers = [];
+
+    // Enemy Bugs
+    let enemies = [];
+    const bugTypes = [
+      { name: '404', color: '#ff007f', score: 100 },
+      { name: 'SEGFAULT', color: '#ffb703', score: 250 },
+      { name: 'NULL_PTR', color: '#00f5ff', score: 400 },
+      { name: 'MEM_LEAK', color: '#00ff66', score: 500 }
+    ];
+
+    function createWave() {
+      enemies = [];
+      const rows = 4;
+      const cols = 8;
+      for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < cols; c++) {
+          enemies.push({
+            x: 60 + c * 64,
+            y: 50 + r * 42,
+            w: 44,
+            h: 24,
+            type: bugTypes[r % bugTypes.length],
+            alive: true
+          });
+        }
+      }
+    }
+    createWave();
+
+    let enemyDir = 1;
+    let enemySpeed = 1.2;
+    let enemyStepDown = 0;
+
+    // Keyboard state
+    const keys = {};
+    window.addEventListener('keydown', (e) => {
+      initAudio();
+      keys[e.code] = true;
+      if (e.code === 'Space' && !gameOver) {
+        lasers.push({ x: player.x + player.w / 2 - 2, y: player.y, w: 4, h: 12, speed: 9 });
+        playBeep(880, 'sine', 0.05);
+      }
+      if (e.code === 'KeyR' && gameOver) {
+        restartGame();
+      }
+    });
+    window.addEventListener('keyup', (e) => { keys[e.code] = false; });
+
+    // Touch controls
+    document.getElementById('btn-left').addEventListener('touchstart', (e) => { e.preventDefault(); keys['ArrowLeft'] = true; });
+    document.getElementById('btn-left').addEventListener('touchend', (e) => { e.preventDefault(); keys['ArrowLeft'] = false; });
+    document.getElementById('btn-right').addEventListener('touchstart', (e) => { e.preventDefault(); keys['ArrowLeft'] = false; keys['ArrowRight'] = true; });
+    document.getElementById('btn-right').addEventListener('touchend', (e) => { e.preventDefault(); keys['ArrowRight'] = false; });
+    document.getElementById('btn-fire').addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      initAudio();
+      lasers.push({ x: player.x + player.w / 2 - 2, y: player.y, w: 4, h: 12, speed: 9 });
+      playBeep(880, 'sine', 0.05);
+      if (gameOver) restartGame();
+    });
+
+    function restartGame() {
+      score = 0;
+      wave = 1;
+      lives = 3;
+      gameOver = false;
+      lasers = [];
+      enemyLasers = [];
+      createWave();
+    }
+
+    // Game Loop
+    function update() {
+      if (gameOver) return;
+
+      // Player Movement
+      if (keys['ArrowLeft'] || keys['KeyA']) player.x -= player.speed;
+      if (keys['ArrowRight'] || keys['KeyD']) player.x += player.speed;
+      player.x = Math.max(10, Math.min(canvas.width - player.w - 10, player.x));
+
+      // Player Lasers Update
+      for (let i = lasers.length - 1; i >= 0; i--) {
+        const l = lasers[i];
+        l.y -= l.speed;
+        if (l.y < 0) { lasers.splice(i, 1); continue; }
+
+        // Laser vs Enemy Collision
+        for (let e of enemies) {
+          if (e.alive && l.x > e.x && l.x < e.x + e.w && l.y > e.y && l.y < e.y + e.h) {
+            e.alive = false;
+            lasers.splice(i, 1);
+            score += e.type.score;
+            playBeep(240, 'sawtooth', 0.12);
+            if (score > highscore) {
+              highscore = score;
+              localStorage.setItem('cyber_invaders_hi', highscore);
+            }
+            break;
+          }
+        }
+      }
+
+      // Check Wave Victory
+      if (enemies.every(e => !e.alive)) {
+        wave++;
+        enemySpeed += 0.4;
+        createWave();
+        playBeep(1200, 'triangle', 0.3);
+      }
+
+      // Enemy Movement
+      let hitEdge = false;
+      for (let e of enemies) {
+        if (!e.alive) continue;
+        e.x += enemySpeed * enemyDir;
+        if (e.x <= 15 || e.x + e.w >= canvas.width - 15) hitEdge = true;
+        if (e.y + e.h >= player.y) gameOver = true;
+      }
+      if (hitEdge) {
+        enemyDir *= -1;
+        for (let e of enemies) { e.y += 16; }
+      }
+
+      // Random Enemy Fire
+      if (Math.random() < 0.025 + wave * 0.005) {
+        const living = enemies.filter(e => e.alive);
+        if (living.length > 0) {
+          const shooter = living[Math.floor(Math.random() * living.length)];
+          enemyLasers.push({ x: shooter.x + shooter.w / 2, y: shooter.y + shooter.h, speed: 4 });
+        }
+      }
+
+      // Enemy Lasers Update
+      for (let i = enemyLasers.length - 1; i >= 0; i--) {
+        const el = enemyLasers[i];
+        el.y += el.speed;
+        if (el.y > canvas.height) { enemyLasers.splice(i, 1); continue; }
+
+        // Hit player
+        if (el.x > player.x && el.x < player.x + player.w && el.y > player.y && el.y < player.y + player.h) {
+          enemyLasers.splice(i, 1);
+          lives--;
+          playBeep(150, 'sawtooth', 0.25);
+          if (lives <= 0) gameOver = true;
+        }
+      }
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Starfield background
+      ctx.fillStyle = '#ffffff';
+      for (let i = 0; i < 20; i++) {
+        let sx = (i * 37 + (Date.now() * 0.02)) % canvas.width;
+        let sy = (i * 73) % canvas.height;
+        ctx.fillRect(sx, sy, 1.5, 1.5);
+      }
+
+      // HUD
+      ctx.font = '11px "Press Start 2P", monospace';
+      ctx.fillStyle = '#ff007f';
+      ctx.fillText(`SCORE: ${score}`, 20, 25);
+      ctx.fillStyle = '#ffb703';
+      ctx.fillText(`HIGH: ${highscore}`, 240, 25);
+      ctx.fillStyle = '#00f5ff';
+      ctx.fillText(`WAVE: 0${wave}`, 450, 25);
+      ctx.fillStyle = '#00ff66';
+      ctx.fillText(`LIVES: ${'♥'.repeat(Math.max(0, lives))}`, 550, 25);
+
+      // Draw Enemies
+      for (let e of enemies) {
+        if (!e.alive) continue;
+        ctx.strokeStyle = e.type.color;
+        ctx.fillStyle = '#060a18';
+        ctx.lineWidth = 1.5;
+        ctx.fillRect(e.x, e.y, e.w, e.h);
+        ctx.strokeRect(e.x, e.y, e.w, e.h);
+        ctx.fillStyle = e.type.color;
+        ctx.font = '8px "Fira Code", monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(e.type.name, e.x + e.w / 2, e.y + 15);
+      }
+      ctx.textAlign = 'left';
+
+      // Draw Player Lasers
+      ctx.fillStyle = '#00f5ff';
+      ctx.shadowBlur = 8;
+      ctx.shadowColor = '#00f5ff';
+      for (let l of lasers) ctx.fillRect(l.x, l.y, l.w, l.h);
+
+      // Draw Enemy Lasers
+      ctx.fillStyle = '#ff007f';
+      ctx.shadowColor = '#ff007f';
+      for (let el of enemyLasers) ctx.fillRect(el.x - 1.5, el.y, 3, 10);
+      ctx.shadowBlur = 0;
+
+      // Draw Player Ship
+      ctx.strokeStyle = '#00f5ff';
+      ctx.fillStyle = '#0f172a';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(player.x + player.w / 2, player.y);
+      ctx.lineTo(player.x + player.w, player.y + player.h);
+      ctx.lineTo(player.x + player.w / 2, player.y + player.h - 6);
+      ctx.lineTo(player.x, player.y + player.h);
+      ctx.closePath();
+      ctx.fill();
+      ctx.stroke();
+
+      // Thruster glow
+      ctx.fillStyle = '#ff0055';
+      ctx.fillRect(player.x + player.w / 2 - 2, player.y + player.h - 4, 4, 8 + Math.random() * 4);
+
+      // Game Over Screen
+      if (gameOver) {
+        ctx.fillStyle = 'rgba(3, 7, 18, 0.85)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        ctx.textAlign = 'center';
+        ctx.font = '24px "Press Start 2P", monospace';
+        ctx.fillStyle = '#ff007f';
+        ctx.fillText('SYSTEM OVERLOAD', canvas.width / 2, canvas.height / 2 - 20);
+
+        ctx.font = '12px "Press Start 2P", monospace';
+        ctx.fillStyle = '#00f5ff';
+        ctx.fillText(`FINAL SCORE: ${score}`, canvas.width / 2, canvas.height / 2 + 20);
+        ctx.fillStyle = '#ffb703';
+        ctx.fillText('PRESS [ R ] OR TOUCH FIRE TO RESTART', canvas.width / 2, canvas.height / 2 + 55);
+        ctx.textAlign = 'left';
+      }
+
+      requestAnimationFrame(() => {
+        update();
+        draw();
+      });
+    }
+
+    draw();
+  </script>
+</body>
+</html>

@@ -1,39 +1,202 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="350" viewBox="0 0 800 350" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo1NWY5MzIwMC03M2FkLTQ5MDQtOThlNS1jYzNmMWE4NDU2YmYAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJ0W2BgdAlgV/drelMoQS5cAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpjNTVkNjk5Ny00OWRlLTRhNzEtOGFkYi0yZDdjYmU1ZjljNjZscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoNtTYvOVACYlr/Dqx/QPQsAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg+Dza5s6umQZJciEdkEqBREEtwCWsuSr/ytt+pw6GC3GkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaKz87A6XekOW9v/u0uVRbJsAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCC/hWZFuV6x1obaaOITLXkuXXqJ6ALM+Fyd+UfCxaODP2RuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiWZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjU1ZjkzMjAwLTczYWQtNDkwNC05OGU1LWNjM2YxYTg0NTZiZi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmUwOGNhOWI2LTg4ODItNDJkYS04MzkxLTZjZWY3ZTdhZjk5OXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCD4PNrmzq6ZBklyIR2QSoFEQS3AJay5Kv/K236nDoYLcaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgglroFNcoHz04sIXrPB+Vv/mhABWI5BcPI+WyuLcBt0y2iY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggy/sFbOw+6bkq4smPCkSmyFNxuc0GfCDx/falUUX8W7t0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQK9Yh33lUNpy90/M1E0IQcZAxPT/E226n1uUIqlZ7wcrjqLqjvZmxvxo6KXa6H3VBOAjK7HklC3X1fv1t3WzWCs=</c2pa:manifest></metadata>
-<rect x="2" y="2" width="796" height="346" rx="14" fill="#0d1117" stroke="#00ffe1" stroke-opacity="0.5" stroke-width="2"/>
-<text x="400.0" y="38" text-anchor="middle" fill="#00ffe1" font-family="Fira Code, Consolas, monospace" font-size="20" font-weight="bold">// skill_levels.exe</text>
-<text x="30" y="86" fill="#e6edf3" font-family="Fira Code, Consolas, monospace" font-size="15">C</text>
-<rect x="190" y="70" width="520" height="20" rx="10" fill="#21262d"/>
-<rect x="190" y="70" width="0" height="20" rx="10" fill="#00ffe1"><animate attributeName="width" from="0" to="390.0" dur="1.6s" begin="0.0s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-<rect x="190" y="70" width="40" height="20" rx="10" fill="#ffffff" opacity="0.12"><animate attributeName="x" values="190;670" dur="2.4s" begin="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.18;0" dur="2.4s" begin="1.8s" repeatCount="indefinite"/></rect>
-<text x="724" y="86" fill="#00ffe1" font-family="Fira Code, Consolas, monospace" font-size="14">75%</text>
-<text x="30" y="126" fill="#e6edf3" font-family="Fira Code, Consolas, monospace" font-size="15">Python</text>
-<rect x="190" y="110" width="520" height="20" rx="10" fill="#21262d"/>
-<rect x="190" y="110" width="0" height="20" rx="10" fill="#3b82f6"><animate attributeName="width" from="0" to="374.4" dur="1.6s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-<rect x="190" y="110" width="40" height="20" rx="10" fill="#ffffff" opacity="0.12"><animate attributeName="x" values="190;670" dur="2.4s" begin="2.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.18;0" dur="2.4s" begin="2.0s" repeatCount="indefinite"/></rect>
-<text x="724" y="126" fill="#3b82f6" font-family="Fira Code, Consolas, monospace" font-size="14">72%</text>
-<text x="30" y="166" fill="#e6edf3" font-family="Fira Code, Consolas, monospace" font-size="15">Shell / Bash</text>
-<rect x="190" y="150" width="520" height="20" rx="10" fill="#21262d"/>
-<rect x="190" y="150" width="0" height="20" rx="10" fill="#27c93f"><animate attributeName="width" from="0" to="322.4" dur="1.6s" begin="0.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-<rect x="190" y="150" width="40" height="20" rx="10" fill="#ffffff" opacity="0.12"><animate attributeName="x" values="190;670" dur="2.4s" begin="2.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.18;0" dur="2.4s" begin="2.2s" repeatCount="indefinite"/></rect>
-<text x="724" y="166" fill="#27c93f" font-family="Fira Code, Consolas, monospace" font-size="14">62%</text>
-<text x="30" y="206" fill="#e6edf3" font-family="Fira Code, Consolas, monospace" font-size="15">SQL</text>
-<rect x="190" y="190" width="520" height="20" rx="10" fill="#21262d"/>
-<rect x="190" y="190" width="0" height="20" rx="10" fill="#ffd166"><animate attributeName="width" from="0" to="312.0" dur="1.6s" begin="0.6000000000000001s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-<rect x="190" y="190" width="40" height="20" rx="10" fill="#ffffff" opacity="0.12"><animate attributeName="x" values="190;670" dur="2.4s" begin="2.4000000000000004s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.18;0" dur="2.4s" begin="2.4000000000000004s" repeatCount="indefinite"/></rect>
-<text x="724" y="206" fill="#ffd166" font-family="Fira Code, Consolas, monospace" font-size="14">60%</text>
-<text x="30" y="246" fill="#e6edf3" font-family="Fira Code, Consolas, monospace" font-size="15">HTML / CSS</text>
-<rect x="190" y="230" width="520" height="20" rx="10" fill="#21262d"/>
-<rect x="190" y="230" width="0" height="20" rx="10" fill="#ff8a65"><animate attributeName="width" from="0" to="286.0" dur="1.6s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-<rect x="190" y="230" width="40" height="20" rx="10" fill="#ffffff" opacity="0.12"><animate attributeName="x" values="190;670" dur="2.4s" begin="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.18;0" dur="2.4s" begin="2.6s" repeatCount="indefinite"/></rect>
-<text x="724" y="246" fill="#ff8a65" font-family="Fira Code, Consolas, monospace" font-size="14">55%</text>
-<text x="30" y="286" fill="#e6edf3" font-family="Fira Code, Consolas, monospace" font-size="15">C#</text>
-<rect x="190" y="270" width="520" height="20" rx="10" fill="#21262d"/>
-<rect x="190" y="270" width="0" height="20" rx="10" fill="#a78bfa"><animate attributeName="width" from="0" to="234.0" dur="1.6s" begin="1.0s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-<rect x="190" y="270" width="40" height="20" rx="10" fill="#ffffff" opacity="0.12"><animate attributeName="x" values="190;670" dur="2.4s" begin="2.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.18;0" dur="2.4s" begin="2.8s" repeatCount="indefinite"/></rect>
-<text x="724" y="286" fill="#a78bfa" font-family="Fira Code, Consolas, monospace" font-size="14">45%</text>
-<text x="30" y="326" fill="#e6edf3" font-family="Fira Code, Consolas, monospace" font-size="15">Git & GitHub</text>
-<rect x="190" y="310" width="520" height="20" rx="10" fill="#21262d"/>
-<rect x="190" y="310" width="0" height="20" rx="10" fill="#ef476f"><animate attributeName="width" from="0" to="338.0" dur="1.6s" begin="1.2000000000000002s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
-<rect x="190" y="310" width="40" height="20" rx="10" fill="#ffffff" opacity="0.12"><animate attributeName="x" values="190;670" dur="2.4s" begin="3.0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.18;0" dur="2.4s" begin="3.0s" repeatCount="indefinite"/></rect>
-<text x="724" y="326" fill="#ef476f" font-family="Fira Code, Consolas, monospace" font-size="14">65%</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" fill="none">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="skills_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="50%" stop-color="#090f1f"/>
+      <stop offset="100%" stop-color="#030610"/>
+    </linearGradient>
+
+    <!-- Neon Border -->
+    <linearGradient id="skills_neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff">
+        <animate attributeName="stop-color" values="#00f5ff;#b026ff;#ff007f;#00f5ff" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#b026ff">
+        <animate attributeName="stop-color" values="#b026ff;#ff007f;#00f5ff;#b026ff" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Bar Gradients -->
+    <linearGradient id="bar_c" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <linearGradient id="bar_py" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffd166"/>
+      <stop offset="100%" stop-color="#ff9f1c"/>
+    </linearGradient>
+
+    <linearGradient id="bar_sh" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff66"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+
+    <linearGradient id="bar_sql" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b026ff"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <linearGradient id="bar_cs" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff007f"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </linearGradient>
+
+    <linearGradient id="bar_web" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#00f5ff"/>
+    </linearGradient>
+
+    <!-- Glowing Filter -->
+    <filter id="core_glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="skills_grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#00f5ff" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .code-font { font-family: 'Fira Code', 'Courier New', monospace; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect x="2" y="2" width="876" height="416" rx="16" fill="url(#skills_bg)" stroke="url(#skills_neon)" stroke-width="2"/>
+  <rect x="2" y="2" width="876" height="416" rx="16" fill="url(#skills_grid)"/>
+
+  <!-- Scanning Sweep -->
+  <rect x="2" y="0" width="876" height="2" fill="#00f5ff" opacity="0.2">
+    <animate attributeName="y" from="0" to="420" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Title Bar -->
+  <g transform="translate(30, 28)">
+    <text x="0" y="0" fill="#00f5ff" font-size="14" class="code-font" font-weight="bold">// NEURAL_TECH_MATRIX.SYS</text>
+    <text x="260" y="0" fill="#64748b" font-size="12" class="code-font">[QUANTUM_OVERCLOCK_ACTIVE]</text>
+    <rect x="730" y="-12" width="85" height="18" rx="4" fill="#00ff66" fill-opacity="0.1" stroke="#00ff66" stroke-width="1"/>
+    <text x="742" y="1" fill="#00ff66" font-size="10" class="code-font" font-weight="bold">SYNC 99.8%</text>
+  </g>
+
+  <line x1="30" y1="42" x2="850" y2="42" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1"/>
+
+  <!-- ================= LEFT: ROTATING QUANTUM REACTOR CORE ================= -->
+  <g transform="translate(130, 220)">
+    <!-- Ambient Core Halo -->
+    <circle cx="0" cy="0" r="85" fill="#00f5ff" fill-opacity="0.04"/>
+    <circle cx="0" cy="0" r="75" stroke="#00f5ff" stroke-opacity="0.2" stroke-width="1" stroke-dasharray="4 4"/>
+
+    <!-- Outer Rotating Gear Ring -->
+    <circle cx="0" cy="0" r="60" stroke="#b026ff" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="8 6">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Middle Counter-Rotating Ring -->
+    <circle cx="0" cy="0" r="45" stroke="#00f5ff" stroke-width="2.5" stroke-dasharray="14 10" filter="url(#core_glow)">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Inner Core Emitter -->
+    <circle cx="0" cy="0" r="24" fill="#0a1428" stroke="#ff007f" stroke-width="2"/>
+    <circle cx="0" cy="0" r="14" fill="#00f5ff" filter="url(#core_glow)">
+      <animate attributeName="r" values="12;16;12" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Orbiting Energy Particles -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      <circle cx="45" cy="0" r="3" fill="#ffb703" filter="url(#core_glow)"/>
+      <circle cx="-45" cy="0" r="3" fill="#ff007f" filter="url(#core_glow)"/>
+    </g>
+
+    <!-- Core Readout Labels -->
+    <text x="0" y="98" fill="#00f5ff" font-size="11" class="code-font" font-weight="bold" text-anchor="middle">ARC REACTOR CORE</text>
+    <text x="0" y="114" fill="#94a3b8" font-size="9" class="code-font" text-anchor="middle">OUTPUT: 1.21 GW</text>
+  </g>
+
+  <!-- Circuit Conduits Flowing to Skills -->
+  <path d="M205 130 L270 90" stroke="#00f5ff" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M220 180 L270 145" stroke="#00f5ff" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M220 220 L270 200" stroke="#00f5ff" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M220 260 L270 255" stroke="#00f5ff" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M205 310 L270 310" stroke="#00f5ff" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <path d="M185 340 L270 365" stroke="#00f5ff" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+  <!-- ================= RIGHT: HIGH-TECH SKILL MODULES ================= -->
+  <g transform="translate(280, 55)">
+    <!-- SKILL 1: C & Low-Level -->
+    <g transform="translate(0, 15)">
+      <text x="0" y="14" fill="#e2e8f0" font-size="13" class="code-font" font-weight="bold">Low-Level Systems // C</text>
+      <text x="490" y="14" fill="#00f5ff" font-size="13" class="code-font" font-weight="bold">90% [CORE]</text>
+      <!-- Base Slot -->
+      <rect x="0" y="22" width="560" height="16" rx="4" fill="#0a0f1d" stroke="#1e293b" stroke-width="1"/>
+      <!-- Filled Energy Bar -->
+      <rect x="0" y="22" width="504" height="16" rx="4" fill="url(#bar_c)" filter="url(#core_glow)"/>
+      <!-- Animated Shimmer Pulse -->
+      <rect x="0" y="22" width="40" height="16" rx="4" fill="#ffffff" opacity="0.25">
+        <animate attributeName="x" values="0;464;0" dur="3s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- SKILL 2: Python & Automation -->
+    <g transform="translate(0, 70)">
+      <text x="0" y="14" fill="#e2e8f0" font-size="13" class="code-font" font-weight="bold">Python &amp; Automation Engine</text>
+      <text x="490" y="14" fill="#ffd166" font-size="13" class="code-font" font-weight="bold">88% [TURBO]</text>
+      <rect x="0" y="22" width="560" height="16" rx="4" fill="#0a0f1d" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="22" width="492" height="16" rx="4" fill="url(#bar_py)"/>
+      <rect x="0" y="22" width="40" height="16" rx="4" fill="#ffffff" opacity="0.25">
+        <animate attributeName="x" values="0;452;0" dur="3.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- SKILL 3: Shell & Linux Kernel -->
+    <g transform="translate(0, 125)">
+      <text x="0" y="14" fill="#e2e8f0" font-size="13" class="code-font" font-weight="bold">Shell Scripting &amp; Ubuntu Kernel</text>
+      <text x="490" y="14" fill="#00ff66" font-size="13" class="code-font" font-weight="bold">85% [ROOT]</text>
+      <rect x="0" y="22" width="560" height="16" rx="4" fill="#0a0f1d" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="22" width="476" height="16" rx="4" fill="url(#bar_sh)"/>
+      <rect x="0" y="22" width="40" height="16" rx="4" fill="#ffffff" opacity="0.25">
+        <animate attributeName="x" values="0;436;0" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- SKILL 4: SQL & Data Architecture -->
+    <g transform="translate(0, 180)">
+      <text x="0" y="14" fill="#e2e8f0" font-size="13" class="code-font" font-weight="bold">SQL &amp; Relational Databases</text>
+      <text x="490" y="14" fill="#b026ff" font-size="13" class="code-font" font-weight="bold">80% [SYNAPSE]</text>
+      <rect x="0" y="22" width="560" height="16" rx="4" fill="#0a0f1d" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="22" width="448" height="16" rx="4" fill="url(#bar_sql)"/>
+      <rect x="0" y="22" width="40" height="16" rx="4" fill="#ffffff" opacity="0.25">
+        <animate attributeName="x" values="0;408;0" dur="3.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- SKILL 5: C# & Software Engineering -->
+    <g transform="translate(0, 235)">
+      <text x="0" y="14" fill="#e2e8f0" font-size="13" class="code-font" font-weight="bold">C# &amp; Object Architecture</text>
+      <text x="490" y="14" fill="#ff007f" font-size="13" class="code-font" font-weight="bold">75% [LOGIC]</text>
+      <rect x="0" y="22" width="560" height="16" rx="4" fill="#0a0f1d" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="22" width="420" height="16" rx="4" fill="url(#bar_cs)"/>
+      <rect x="0" y="22" width="40" height="16" rx="4" fill="#ffffff" opacity="0.25">
+        <animate attributeName="x" values="0;380;0" dur="3.6s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- SKILL 6: Web & Interface Systems -->
+    <g transform="translate(0, 290)">
+      <text x="0" y="14" fill="#e2e8f0" font-size="13" class="code-font" font-weight="bold">HTML5 / CSS3 &amp; Web Systems</text>
+      <text x="490" y="14" fill="#06b6d4" font-size="13" class="code-font" font-weight="bold">78% [MATRIX]</text>
+      <rect x="0" y="22" width="560" height="16" rx="4" fill="#0a0f1d" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="22" width="436" height="16" rx="4" fill="url(#bar_web)"/>
+      <rect x="0" y="22" width="40" height="16" rx="4" fill="#ffffff" opacity="0.25">
+        <animate attributeName="x" values="0;396;0" dur="2.9s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
 </svg>
